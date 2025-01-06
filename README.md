@@ -21,3 +21,10 @@ The consensus mechanism is the process by which a blockchain network validates t
 Network Infrastructure Evaluation:
 
 This involves reviewing the nodes, APIs, and overall network configuration. The goal is to ensure resilience against Distributed Denial of Service (DDoS) attacks, man-in-the-middle attacks, and other network-based threats.
+INFO:Detectors:External Function exposed to untrusted contracts in function 'transfer'
+INFO:Detectors:Function 'transfer' has a reentrancy vulnerability
+INFO:Detectors:State variable 'balance' can be overwritten
+
+OUTPUT:-
+...
+INFO:Detectors:Total 5 issues detected
