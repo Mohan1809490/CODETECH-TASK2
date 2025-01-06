@@ -1,0 +1,14 @@
+from slither import Slither
+
+# Path to the smart contract file
+contract_path = 'path/to/your/contract.sol'
+
+# Initialize Slither
+slither = Slither(contract_path)
+
+# Run static analysis
+slither.run()
+
+# Print results
+for result in slither.results:
+    print(result)
